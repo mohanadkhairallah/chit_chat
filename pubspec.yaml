@@ -1,0 +1,48 @@
+name: chit_chat
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: "^0.7.0"
+  firebase_auth: "^0.20.1"
+  firebase_crashlytics: "^0.4.0+1"
+  cloud_firestore: "^0.16.0+1"
+  cloud_functions: "^0.9.0"
+  # firebase_storage: "^7.0.0"
+  firebase_messaging: "^8.0.0-dev.15"
+  provider: ^5.0.0
+  flutter_spinkit: "^4.0.0"
+  flutter_local_notifications: ^4.0.1+2
+
+dev_dependencies:
+  flutter_native_splash: ^1.1.8+4
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: asset/chit_chat_city.jpg
+  android: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/
+
+  fonts:
+  - family: Dancing
+    fonts:
+    - asset: asset/fonts/DancingScript-VariableFont_wght.ttf
+
+
